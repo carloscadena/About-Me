@@ -1,9 +1,7 @@
 body {
-  background-image: url("http://www.adventureinparadiseinc.com/wp-content/gallery/sunset-dolphin-gallery/sanibel-captiva-sunset-boat-tour.jpg");
 }
 
 h1 {
-  text-align: center;
   font-size: 50px;
   color: ##85C1E9;
   background-color: #9BA7CB;
@@ -11,7 +9,6 @@ h1 {
 }
 
 p {
-  text-align: center;
 }
 
 div {
@@ -20,14 +17,28 @@ div {
 }
 
 h3 {
-  text-align:center;
   font-family: "Times New Roman":;
 }
+#helloUser {
+  text-align: center;
 
-#first {
+#aLittleAbout {
+  text-decoration: underline;
+}
+
+}
+#MyBio {
   background-color: #F5B7B1;
 }
 
-#second {
+#MyEducation {
+  background-color: #ABEBC6;
+}
+
+#MyExperience {
+  background-color: #ABEBC6;
+}
+
+#MyGoals {
   background-color: #ABEBC6;
 }
