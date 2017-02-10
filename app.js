@@ -80,4 +80,4 @@ for (var i = 0; i < 6; i++) {
     alert('I wish I could have seen every country in Europe, that was one I missed');
   }
 }
-var finalResults = prompt('Nice work ' + userName + '. You got ' + correctAnswerCount + ' out of 7 questions right.')
+var finalResults = prompt('Nice work ' + userName + '. You got ' + correctAnswerCount + ' out of 7 questions right.');
