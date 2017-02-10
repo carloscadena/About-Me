@@ -3,6 +3,7 @@
 var userName = prompt('What\'s your name?');
 //thank you Danny for this trick
 document.getElementById('helloUser').innerHTML = 'Hello ' + userName + ', I\'m Carlos Cadena';
+
 var correctAnswerCount = 0;
 var confirmQuiz = confirm('Hello ' + userName + ', please take this quiz.');
 if (confirmQuiz){
@@ -67,17 +68,17 @@ for(var i = 0; i < 4; i++){
     break;
   }
 }
-var countriesVisited = ['the netherlands', 'portugal', 'hungary', 'austria', 'czech republic', 'germany'];
+var countriesVisited = ['washington', 'oregon', 'california', 'wisconsin', 'hawaii', 'new york', 'nevada', 'utah', 'illinois'];
 var correctAnswer2 = false;
 for (var i = 0; i < 6; i++) {
-  var quizResponse7 = prompt('I went to Europe this summer, what countries do you think I went to?');
+  var quizResponse7 = prompt('What US states have I been to? You have 6 tries to get one right.');
   if(countriesVisited.includes(quizResponse7.toLowerCase())){
     correctAnswer2 = true;
-    alert('I did go there! Good guess.');
+    alert('I have been there! Good guess.');
     correctAnswerCount++;
     break;
   } else {
-    alert('I wish I could have seen every country in Europe, that was one I missed');
+    alert('I haven\'t made it to that one yet, unfortunately.');
   }
 }
-var finalResults = prompt('Nice work ' + userName + '. You got ' + correctAnswerCount + ' out of 7 questions right.');
+var finalResults = alert('Nice work ' + userName + '. You got ' + correctAnswerCount + ' out of 7 questions right.');

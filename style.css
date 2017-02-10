@@ -7,13 +7,10 @@ h1 {
   background-color: #9BA7CB;
   padding: 10px;
 }
-
-p {
-}
-
 div {
-  padding: px;
-  background-color: #849EEF;
+  
+}
+p {
 }
 
 h3 {
@@ -27,18 +24,6 @@ h3 {
 }
 
 }
-#MyBio {
-  background-color: #F5B7B1;
-}
-
-#MyEducation {
-  background-color: #ABEBC6;
-}
-
-#MyExperience {
-  background-color: #ABEBC6;
-}
-
-#MyGoals {
-  background-color: #ABEBC6;
+.MyInfo {
+  background-color: #efefef;
 }
