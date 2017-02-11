@@ -1,29 +1,18 @@
-body {
-}
-
 h1 {
   font-size: 50px;
   color: ##85C1E9;
   background-color: #9BA7CB;
   padding: 10px;
 }
-div {
-  
-}
-p {
-}
 
 h3 {
   font-family: "Times New Roman":;
 }
+
 #helloUser {
   text-align: center;
-
-#aLittleAbout {
-  text-decoration: underline;
 }
 
-}
 .MyInfo {
   background-color: #efefef;
 }
