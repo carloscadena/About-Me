@@ -5,12 +5,11 @@ var userName = prompt('What\'s your name?');
 document.getElementById('helloUser').innerHTML = 'Hello ' + userName + ', I\'m Carlos Cadena';
 
 var correctAnswerCount = 0;
-var confirmQuiz = confirm('Hello ' + userName + ', please take this quiz.');
+var confirmQuiz = confirm('Hello ' + userName + ' , would you like to take a quiz quiz?');
 
 if (confirmQuiz){
   console.log('Awesome! Lets get started.');
-} else {
-  console.log('THIS IS NOT OPTIONAL');
+  takeQuiz();
 }
 
 function quizOne(){
@@ -111,11 +110,13 @@ function resultsTally(){
   var finalResults = alert('Nice work ' + userName + '. You got ' + correctAnswerCount + ' out of 7 questions right.');
 }
 
-quizOne();
-quizTwo();
-quizThree();
-quizFour();
-quizFive();
-birthdayQuestion();
-statesQuestion();
-resultsTally();
+function takeQuiz(){
+  quizOne();
+  quizTwo();
+  quizThree();
+  quizFour();
+  quizFive();
+  birthdayQuestion();
+  statesQuestion();
+  resultsTally();
+}
